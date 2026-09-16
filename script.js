@@ -8,6 +8,56 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     /* =====================================================
+   DARK / LIGHT MODE
+===================================================== */
+
+const themeToggle = document.getElementById("themeToggle");
+
+const savedTheme = localStorage.getItem("wordscribble-theme");
+
+if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+}
+
+function updateThemeButton() {
+    if (!themeToggle) return;
+
+    const darkMode =
+        document.body.classList.contains("dark-mode");
+
+    themeToggle.textContent = darkMode ? "☀️" : "🌙";
+
+    themeToggle.setAttribute(
+        "aria-label",
+        darkMode
+            ? "Switch to light mode"
+            : "Switch to dark mode"
+    );
+
+    themeToggle.title =
+        darkMode
+            ? "Switch to light mode"
+            : "Switch to dark mode";
+}
+
+updateThemeButton();
+
+themeToggle?.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark-mode");
+
+    const darkMode =
+        document.body.classList.contains("dark-mode");
+
+    localStorage.setItem(
+        "wordscribble-theme",
+        darkMode ? "dark" : "light"
+    );
+
+    updateThemeButton();
+});
+
+    /* =====================================================
        HELPERS
     ===================================================== */
 

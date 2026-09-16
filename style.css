@@ -449,3 +449,279 @@ html {
     }
 
 }
+/* =========================================================
+   THEME TOGGLE
+========================================================= */
+
+.theme-toggle {
+    width: 44px;
+    height: 44px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border: 1px solid #dfe3ee;
+    border-radius: 12px;
+
+    background: #ffffff;
+    color: #172033;
+
+    font-size: 1.15rem;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-1px);
+    background: #f4f5ff;
+    border-color: #c7c9f7;
+}
+
+.theme-toggle:focus-visible {
+    outline: 3px solid rgba(91, 92, 226, 0.25);
+    outline-offset: 2px;
+}
+
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+
+/* Header */
+
+body.dark-mode .site-header {
+    background: #111827;
+    border-color: #273449;
+}
+
+body.dark-mode .brand {
+    color: #f8fafc;
+}
+
+body.dark-mode .nav-links a {
+    color: #cbd5e1;
+}
+
+body.dark-mode .nav-links a:hover {
+    color: #818cf8;
+}
+
+
+/* Main backgrounds */
+
+body.dark-mode main,
+body.dark-mode .section {
+    background: #0f172a;
+}
+
+body.dark-mode .section.alt {
+    background: #131d30;
+}
+
+
+/* Headings */
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: #f8fafc;
+}
+
+body.dark-mode p {
+    color: #b8c4d6;
+}
+
+body.dark-mode .eyebrow {
+    color: #818cf8;
+}
+
+
+/* Tool cards */
+
+body.dark-mode .tool-card,
+body.dark-mode .feature-card {
+    background: #182235;
+    border-color: #2b3950;
+
+    box-shadow:
+        0 12px 35px
+        rgba(0, 0, 0, 0.18);
+}
+
+body.dark-mode .tool-card:hover,
+body.dark-mode .feature-card:hover {
+    border-color: #4f5f7a;
+}
+
+
+/* Form labels */
+
+body.dark-mode label {
+    color: #f1f5f9;
+}
+
+
+/* Inputs */
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select,
+body.dark-mode .text-input,
+body.dark-mode .text-area {
+    background: #111827;
+    border-color: #37465d;
+    color: #f8fafc;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #7f8da3;
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+    border-color: #818cf8;
+    outline: none;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(129, 140, 248, 0.15);
+}
+
+
+/* Select options */
+
+body.dark-mode select option {
+    background: #111827;
+    color: #f8fafc;
+}
+
+
+/* Secondary buttons */
+
+body.dark-mode .btn.secondary {
+    background: #182235;
+    border-color: #37465d;
+    color: #f8fafc;
+}
+
+body.dark-mode .btn.secondary:hover {
+    background: #202c42;
+}
+
+
+/* Statistics */
+
+body.dark-mode .stat {
+    background: #131d30;
+    border-color: #2b3950;
+}
+
+body.dark-mode .stat strong {
+    color: #818cf8;
+}
+
+
+/* Generated results */
+
+body.dark-mode .result-chip {
+    background: #202b42;
+    border-color: #37465d;
+    color: #f1f5f9;
+}
+
+body.dark-mode .result-chip:hover {
+    background: #293650;
+    border-color: #818cf8;
+}
+
+body.dark-mode .result-message {
+    background: #182235;
+    border-color: #37465d;
+    color: #cbd5e1;
+}
+
+
+/* FAQ */
+
+body.dark-mode .faq details {
+    background: #182235;
+    border-color: #2b3950;
+}
+
+body.dark-mode .faq summary {
+    color: #f8fafc;
+}
+
+body.dark-mode .faq details p {
+    color: #b8c4d6;
+}
+
+
+/* Content pages */
+
+body.dark-mode .content-block {
+    color: #cbd5e1;
+}
+
+body.dark-mode .content-block h2,
+body.dark-mode .content-block h3 {
+    color: #f8fafc;
+}
+
+body.dark-mode .content-block a {
+    color: #a5b4fc;
+}
+
+
+/* Theme button itself */
+
+body.dark-mode .theme-toggle {
+    background: #182235;
+    border-color: #37465d;
+    color: #f8fafc;
+}
+
+body.dark-mode .theme-toggle:hover {
+    background: #202c42;
+    border-color: #818cf8;
+}
+
+
+/* Footer */
+
+body.dark-mode .site-footer {
+    background: #080e1c;
+}
+
+
+/* Mobile navigation */
+
+@media (max-width: 900px) {
+
+    body.dark-mode .nav-links {
+        background: #111827;
+        border-color: #2b3950;
+    }
+
+    body.dark-mode .nav-links a:hover {
+        background: #182235;
+    }
+
+}
