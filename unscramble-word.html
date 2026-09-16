@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Unscrambler - Rearrange Letters | Word Scribble</title>
+  <meta name="description" content="Unscramble letters and generate possible rearrangements with Word Scribble.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="unscrambler">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Word<span>Scribble</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="word-scrambler.html">Scrambler</a>
+      <a href="unscramble-word.html">Unscrambler</a>
+      <a href="anagram-generator.html">Anagrams</a>
+      <a href="random-word-generator.html">Random Words</a>
+      <a href="word-counter.html">Word Counter</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Word Scribble Tool</span>
+      <h1>Word Unscrambler</h1>
+      <p>Explore possible rearrangements from a set of letters.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tool-card">
+        
+<label for="unscrambleInput">Enter letters</label>
+<input id="unscrambleInput" class="text-input" type="text" maxlength="14" placeholder="Example: listen">
+<div class="button-row">
+  <button id="unscrambleBtn" class="btn primary" type="button">Generate Arrangements</button>
+  <button id="clearUnscrambleBtn" class="btn secondary" type="button">Clear</button>
+</div>
+<div id="unscrambleResults" class="results"></div>
+<p class="note">This browser-only version generates letter arrangements. For dictionary-validated words, a word-list API can be added later.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container content-block">
+      
+<h2>About the unscrambler</h2>
+<p>This tool generates possible letter arrangements from your input. It is useful for experimenting with patterns and word-game ideas.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a><p>Free online word and text tools.</p></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

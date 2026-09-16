@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Word Generator | Word Scribble</title>
+  <meta name="description" content="Generate random English words for writing prompts, games, learning and brainstorming.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="random">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Word<span>Scribble</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="word-scrambler.html">Scrambler</a>
+      <a href="unscramble-word.html">Unscrambler</a>
+      <a href="anagram-generator.html">Anagrams</a>
+      <a href="random-word-generator.html">Random Words</a>
+      <a href="word-counter.html">Word Counter</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Word Scribble Tool</span>
+      <h1>Random Word Generator</h1>
+      <p>Generate random words for writing, games, ideas and vocabulary practice.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tool-card">
+        
+<div class="options-grid">
+  <label>Category
+    <select id="wordCategory">
+      <option value="all">All</option>
+      <option value="noun">Nouns</option>
+      <option value="verb">Verbs</option>
+      <option value="adjective">Adjectives</option>
+    </select>
+  </label>
+  <label>Number of words
+    <select id="randomCount">
+      <option>1</option><option>3</option><option selected>5</option><option>10</option><option>15</option>
+    </select>
+  </label>
+</div>
+<div class="button-row">
+  <button id="randomWordBtn" class="btn primary" type="button">Generate Words</button>
+</div>
+<div id="randomWordResults" class="results chips"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container content-block">
+      
+<h2>Ways to use random words</h2>
+<p>Random words are useful for creative writing prompts, vocabulary exercises, naming ideas, brainstorming sessions and party games.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a><p>Free online word and text tools.</p></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

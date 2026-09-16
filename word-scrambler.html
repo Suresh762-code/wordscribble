@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Scrambler - Mix Letters Online | Word Scribble</title>
+  <meta name="description" content="Free online word scrambler. Enter a word or phrase and instantly generate randomized letter combinations.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="scrambler">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Word<span>Scribble</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="word-scrambler.html">Scrambler</a>
+      <a href="unscramble-word.html">Unscrambler</a>
+      <a href="anagram-generator.html">Anagrams</a>
+      <a href="random-word-generator.html">Random Words</a>
+      <a href="word-counter.html">Word Counter</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Word Scribble Tool</span>
+      <h1>Free Word Scrambler</h1>
+      <p>Rearrange letters instantly for games, puzzles, learning and creative ideas.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tool-card">
+        
+<label for="scrambleInput">Word or phrase</label>
+<input id="scrambleInput" class="text-input" type="text" maxlength="80" placeholder="Enter a word">
+<div class="options-grid">
+  <label>Results<select id="resultCount"><option>5</option><option selected>10</option><option>15</option><option>20</option></select></label>
+  <label class="check-label"><input id="preserveSpaces" type="checkbox" checked> Preserve spaces</label>
+  <label class="check-label"><input id="preserveEnds" type="checkbox"> Keep first & last letter</label>
+</div>
+<div class="button-row">
+  <button id="scrambleBtn" class="btn primary" type="button">Scramble</button>
+  <button id="clearScrambleBtn" class="btn secondary" type="button">Clear</button>
+</div>
+<div id="scrambleResults" class="results"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container content-block">
+      
+<h2>How the word scrambler works</h2>
+<p>The tool shuffles the characters you enter and creates multiple unique results. You can preserve spaces and optionally keep the first and last letters in their original positions.</p>
+<h2>Popular uses</h2>
+<p>Use it for classroom exercises, spelling games, puzzle creation, name ideas, brainstorming and recreational wordplay.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a><p>Free online word and text tools.</p></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

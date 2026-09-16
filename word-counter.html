@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter - Count Words & Characters | Word Scribble</title>
+  <meta name="description" content="Count words, characters, sentences, paragraphs and estimated reading time online.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="counter">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Word<span>Scribble</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="word-scrambler.html">Scrambler</a>
+      <a href="unscramble-word.html">Unscrambler</a>
+      <a href="anagram-generator.html">Anagrams</a>
+      <a href="random-word-generator.html">Random Words</a>
+      <a href="word-counter.html">Word Counter</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Word Scribble Tool</span>
+      <h1>Word & Character Counter</h1>
+      <p>Paste or type text and see live word, character, sentence and reading-time statistics.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tool-card">
+        
+<label for="counterInput">Your text</label>
+<textarea id="counterInput" class="text-area" rows="12" placeholder="Start typing or paste text here..."></textarea>
+<div class="stats-grid">
+  <div class="stat"><strong id="wordCount">0</strong><span>Words</span></div>
+  <div class="stat"><strong id="charCount">0</strong><span>Characters</span></div>
+  <div class="stat"><strong id="charNoSpaceCount">0</strong><span>No Spaces</span></div>
+  <div class="stat"><strong id="sentenceCount">0</strong><span>Sentences</span></div>
+  <div class="stat"><strong id="paragraphCount">0</strong><span>Paragraphs</span></div>
+  <div class="stat"><strong id="readingTime">0 min</strong><span>Reading Time</span></div>
+</div>
+<div class="button-row"><button id="clearCounterBtn" class="btn secondary" type="button">Clear</button></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container content-block">
+      
+<h2>Live text statistics</h2>
+<p>The counter updates while you type and estimates reading time using an average reading speed of approximately 200 words per minute.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a><p>Free online word and text tools.</p></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

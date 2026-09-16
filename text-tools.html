@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Text Tools - Reverse, Sort & Clean Text | Word Scribble</title>
+  <meta name="description" content="Free browser-based text tools to reverse text, sort words, remove duplicate words and change letter case.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="texttools">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Word<span>Scribble</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="word-scrambler.html">Scrambler</a>
+      <a href="unscramble-word.html">Unscrambler</a>
+      <a href="anagram-generator.html">Anagrams</a>
+      <a href="random-word-generator.html">Random Words</a>
+      <a href="word-counter.html">Word Counter</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Word Scribble Tool</span>
+      <h1>Quick Text Tools</h1>
+      <p>Reverse, sort, clean and transform text directly in your browser.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tool-card">
+        
+<label for="textToolsInput">Your text</label>
+<textarea id="textToolsInput" class="text-area" rows="8" placeholder="Enter text here..."></textarea>
+<div class="button-row wrap">
+  <button class="btn secondary text-action" data-action="reverse">Reverse</button>
+  <button class="btn secondary text-action" data-action="sort">Sort Words</button>
+  <button class="btn secondary text-action" data-action="dedupe">Remove Duplicates</button>
+  <button class="btn secondary text-action" data-action="upper">UPPERCASE</button>
+  <button class="btn secondary text-action" data-action="lower">lowercase</button>
+  <button class="btn secondary text-action" data-action="title">Title Case</button>
+</div>
+<label for="textToolsOutput">Result</label>
+<textarea id="textToolsOutput" class="text-area" rows="8" readonly></textarea>
+<div class="button-row">
+  <button id="copyTextToolsBtn" class="btn primary" type="button">Copy Result</button>
+  <button id="clearTextToolsBtn" class="btn secondary" type="button">Clear</button>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container content-block">
+      
+<h2>Useful browser-based text transformations</h2>
+<p>These tools can clean or transform text without uploading it to a server.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a><p>Free online word and text tools.</p></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

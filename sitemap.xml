@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.wordscribble.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.wordscribble.com/word-scrambler.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.wordscribble.com/unscramble-word.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.wordscribble.com/anagram-generator.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.wordscribble.com/random-word-generator.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.wordscribble.com/word-counter.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.wordscribble.com/text-tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.wordscribble.com/about.html</loc><priority>0.4</priority></url>
+  <url><loc>https://www.wordscribble.com/contact.html</loc><priority>0.4</priority></url>
+  <url><loc>https://www.wordscribble.com/privacy-policy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.wordscribble.com/terms.html</loc><priority>0.3</priority></url>
+</urlset>
