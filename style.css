@@ -148,3 +148,304 @@ label{font-weight:750;color:#344054}
   .cards-grid,.stats-grid{grid-template-columns:1fr}
   .footer-grid{flex-direction:column}
 }
+/* =========================================
+   WORD SCRIBBLE ENHANCEMENTS
+========================================= */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+
+/* Sticky navigation */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(12px);
+}
+
+
+/* Tool cards */
+
+.feature-card {
+    position: relative;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.10);
+}
+
+.feature-card:focus-visible {
+    outline: 3px solid #5b5ce2;
+    outline-offset: 4px;
+}
+
+
+/* Open tool link */
+
+.card-link {
+    display: inline-block;
+    margin-top: 14px;
+    color: #5b5ce2;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+
+/* Tool note */
+
+.tool-note {
+    margin-top: 24px;
+    color: #64748b;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+
+/* Text tool buttons */
+
+.text-tool-buttons {
+    flex-wrap: wrap;
+}
+
+
+/* Content */
+
+.content-block h2 {
+    margin-top: 42px;
+    margin-bottom: 14px;
+}
+
+.content-block h2:first-child {
+    margin-top: 0;
+}
+
+.content-block h3 {
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+
+.content-block p {
+    line-height: 1.8;
+}
+
+.content-block ul {
+    padding-left: 24px;
+    line-height: 2;
+}
+
+
+/* Better FAQ */
+
+.faq details {
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.faq details:hover {
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+.faq details[open] {
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.07);
+}
+
+
+/* Footer links */
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 18px 24px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .section-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .tool-card {
+        padding: 28px 20px;
+    }
+
+    .footer-links {
+        justify-content: flex-start;
+    }
+
+    .card-link {
+        margin-top: 10px;
+    }
+}
+/* =========================================
+   TOOL RESULT STYLES
+========================================= */
+
+.results {
+    margin-top: 28px;
+}
+
+.result-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.result-chip {
+    border: 1px solid #dfe3ee;
+    background: #f7f8ff;
+    color: #172033;
+
+    padding: 12px 18px;
+
+    border-radius: 12px;
+
+    font: inherit;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        border-color 0.15s ease,
+        background 0.15s ease;
+}
+
+.result-chip:hover {
+    transform: translateY(-2px);
+    border-color: #5b5ce2;
+    background: #f0f0ff;
+}
+
+.result-chip:focus-visible {
+    outline: 3px solid rgba(91, 92, 226, 0.25);
+    outline-offset: 2px;
+}
+
+.result-message {
+    padding: 15px 18px;
+    border-radius: 12px;
+
+    background: #f7f8ff;
+    border: 1px solid #dfe3ee;
+
+    color: #475569;
+    line-height: 1.6;
+}
+
+.result-message.error {
+    background: #fff7f7;
+    border-color: #fecaca;
+    color: #b91c1c;
+}
+
+
+/* =========================================
+   MOBILE NAV
+========================================= */
+
+.menu-toggle {
+    display: none;
+
+    border: 0;
+    background: transparent;
+
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   MOBILE IMPROVEMENTS
+========================================= */
+
+@media (max-width: 900px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-wrap {
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+
+        position: absolute;
+
+        top: calc(100% + 18px);
+        left: 0;
+        right: 0;
+
+        padding: 18px;
+
+        background: #ffffff;
+
+        border: 1px solid #e2e8f0;
+        border-radius: 16px;
+
+        box-shadow:
+            0 18px 45px
+            rgba(15, 23, 42, 0.12);
+
+        flex-direction: column;
+        align-items: stretch;
+
+        z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 10px 12px;
+        border-radius: 8px;
+    }
+
+    .nav-links a:hover {
+        background: #f7f8ff;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .result-chip {
+        width: 100%;
+        text-align: left;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .button-row .btn {
+        width: 100%;
+    }
+
+}

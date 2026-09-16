@@ -1,193 +1,1342 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Scribble - Free Online Word Scrambler & Word Tools</title>
-  <meta name="description" content="Word Scribble offers free online word tools including a word scrambler, unscrambler, anagram generator, random word generator, word counter and more.">
-  <meta name="keywords" content="word scrambler, word scramble, anagram generator, word unscrambler, random word generator, word counter">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.wordscribble.com/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Word Scribble - Free Online Word & Text Tools</title>
+
+    <meta name="description"
+          content="Free online word and text tools including Word Scrambler, Word Unscrambler, Anagram Generator, Random Word Generator, Word Counter and Text Tools.">
+
+    <meta name="keywords"
+          content="word scrambler, word unscrambler, anagram generator, random word generator, word counter, character counter, text tools">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <link rel="canonical"
+          href="https://www.wordscribble.com/">
+
+    <link rel="icon"
+          href="assets/favicon.svg"
+          type="image/svg+xml">
+
+    <link rel="stylesheet"
+          href="style.css">
 </head>
+
+
 <body>
+
+
+<!-- ================= HEADER ================= -->
+
 <header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html">Word<span>Scribble</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="word-scrambler.html">Scrambler</a>
-      <a href="unscramble-word.html">Unscrambler</a>
-      <a href="anagram-generator.html">Anagrams</a>
-      <a href="random-word-generator.html">Random Words</a>
-      <a href="word-counter.html">Word Counter</a>
-      <a href="about.html">About</a>
-    </nav>
-  </div>
+
+    <div class="container nav-wrap">
+
+        <a class="brand"
+           href="index.html">
+            Word<span>Scribble</span>
+        </a>
+
+        <button class="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links"
+             aria-label="Main navigation">
+
+            <a href="#tools">Tools</a>
+
+            <a href="#scrambler">
+                Scrambler
+            </a>
+
+            <a href="#unscrambler">
+                Unscrambler
+            </a>
+
+            <a href="#anagram">
+                Anagrams
+            </a>
+
+            <a href="#random">
+                Random Words
+            </a>
+
+            <a href="#counter">
+                Word Counter
+            </a>
+
+            <a href="#text-tools">
+                Text Tools
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+        </nav>
+
+    </div>
+
 </header>
 
+
+
 <main>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <span class="eyebrow">Free Online Word Tools</span>
-        <h1>Scramble words. Discover combinations. Play with language.</h1>
-        <p>Word Scribble gives you fast, privacy-friendly word tools for games, writing, learning and creative brainstorming.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#scrambler">Scramble a Word</a>
-          <a class="btn secondary" href="#tools">Explore Tools</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="mini-card">
-          <span class="mini-label">Example</span>
-          <strong>DEVELOPER</strong>
-          <div class="arrow">↓</div>
-          <span>LOVEDERPE</span>
-          <span>REVELOPED</span>
-          <span>PEEDLOVER</span>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="scrambler" class="section">
+
+<!-- ================= TOOLS DIRECTORY ================= -->
+
+<section id="tools"
+         class="section alt">
+
     <div class="container">
-      <div class="tool-card">
-        <div class="section-heading">
-          <span class="eyebrow">Main Tool</span>
-          <h2>Word Scrambler</h2>
-          <p>Enter a word or short phrase and generate random letter combinations instantly.</p>
+
+        <div class="section-heading centered">
+
+            <span class="eyebrow">
+                Free Online Tools
+            </span>
+
+            <h1>
+                Word Scribble Tools
+            </h1>
+
+            <p>
+                Choose a free word or text tool and start instantly.
+                No account required.
+            </p>
+
         </div>
 
-        <label for="scrambleInput">Word or phrase</label>
-        <input id="scrambleInput" class="text-input" type="text" maxlength="80" placeholder="Example: developer">
 
-        <div class="options-grid">
-          <label>
-            Number of results
-            <select id="resultCount">
-              <option value="5">5</option>
-              <option value="10" selected>10</option>
-              <option value="15">15</option>
-              <option value="20">20</option>
-            </select>
-          </label>
-          <label class="check-label">
-            <input id="preserveSpaces" type="checkbox" checked>
-            Preserve spaces
-          </label>
-          <label class="check-label">
-            <input id="preserveEnds" type="checkbox">
-            Keep first & last letter
-          </label>
+        <div class="cards-grid">
+
+
+            <!-- Word Scrambler -->
+
+            <a class="feature-card"
+               href="#scrambler">
+
+                <div class="icon">
+                    🔀
+                </div>
+
+                <h2>
+                    Word Scrambler
+                </h2>
+
+                <p>
+                    Randomly rearrange letters in words and phrases.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
+
+            <!-- Word Unscrambler -->
+
+            <a class="feature-card"
+               href="#unscrambler">
+
+                <div class="icon">
+                    🧩
+                </div>
+
+                <h2>
+                    Word Unscrambler
+                </h2>
+
+                <p>
+                    Explore possible arrangements from supplied letters.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
+
+            <!-- Anagram -->
+
+            <a class="feature-card"
+               href="#anagram">
+
+                <div class="icon">
+                    🔤
+                </div>
+
+                <h2>
+                    Anagram Generator
+                </h2>
+
+                <p>
+                    Generate different letter rearrangements from a word.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
+
+            <!-- Random Words -->
+
+            <a class="feature-card"
+               href="#random">
+
+                <div class="icon">
+                    🎲
+                </div>
+
+                <h2>
+                    Random Word Generator
+                </h2>
+
+                <p>
+                    Generate random words for writing, games and ideas.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
+
+            <!-- Word Counter -->
+
+            <a class="feature-card"
+               href="#counter">
+
+                <div class="icon">
+                    🔢
+                </div>
+
+                <h2>
+                    Word Counter
+                </h2>
+
+                <p>
+                    Count words, characters, sentences and paragraphs.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
+
+            <!-- Text Tools -->
+
+            <a class="feature-card"
+               href="#text-tools">
+
+                <div class="icon">
+                    ✍️
+                </div>
+
+                <h2>
+                    Text Tools
+                </h2>
+
+                <p>
+                    Clean, sort, format and transform text instantly.
+                </p>
+
+                <span class="card-link">
+                    Open tool →
+                </span>
+
+            </a>
+
+
         </div>
 
-        <div class="button-row">
-          <button id="scrambleBtn" class="btn primary" type="button">Scramble Word</button>
-          <button id="clearScrambleBtn" class="btn secondary" type="button">Clear</button>
-        </div>
-
-        <div id="scrambleResults" class="results" aria-live="polite"></div>
-      </div>
     </div>
-  </section>
 
-  <section id="tools" class="section alt">
+</section>
+
+
+
+<!-- ================= WORD SCRAMBLER ================= -->
+
+<section id="scrambler"
+         class="section">
+
     <div class="container">
-      <div class="section-heading centered">
-        <span class="eyebrow">More Tools</span>
-        <h2>Everything you need for quick word tasks</h2>
-      </div>
 
-      <div class="cards-grid">
-        <a class="feature-card" href="word-scrambler.html">
-          <div class="icon">🔀</div>
-          <h3>Word Scrambler</h3>
-          <p>Mix letters into randomized combinations.</p>
-        </a>
-        <a class="feature-card" href="unscramble-word.html">
-          <div class="icon">🧩</div>
-          <h3>Word Unscrambler</h3>
-          <p>Generate likely word arrangements from letters.</p>
-        </a>
-        <a class="feature-card" href="anagram-generator.html">
-          <div class="icon">🔤</div>
-          <h3>Anagram Generator</h3>
-          <p>Create unique letter rearrangements.</p>
-        </a>
-        <a class="feature-card" href="random-word-generator.html">
-          <div class="icon">🎲</div>
-          <h3>Random Word Generator</h3>
-          <p>Generate random English words by category.</p>
-        </a>
-        <a class="feature-card" href="word-counter.html">
-          <div class="icon">🔢</div>
-          <h3>Word Counter</h3>
-          <p>Count words, characters, sentences and reading time.</p>
-        </a>
-        <a class="feature-card" href="text-tools.html">
-          <div class="icon">✍️</div>
-          <h3>Text Tools</h3>
-          <p>Reverse, sort, clean and transform text.</p>
-        </a>
-      </div>
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Word Tool
+                </span>
+
+                <h2>
+                    Word Scrambler
+                </h2>
+
+                <p>
+                    Enter a word or phrase and generate random
+                    letter combinations instantly.
+                </p>
+
+            </div>
+
+
+            <label for="scrambleInput">
+                Word or phrase
+            </label>
+
+
+            <input id="scrambleInput"
+                   class="text-input"
+                   type="text"
+                   maxlength="80"
+                   placeholder="Example: developer"
+                   autocomplete="off">
+
+
+            <div class="options-grid">
+
+
+                <label>
+
+                    Number of results
+
+                    <select id="resultCount">
+
+                        <option value="5">
+                            5
+                        </option>
+
+                        <option value="10"
+                                selected>
+                            10
+                        </option>
+
+                        <option value="15">
+                            15
+                        </option>
+
+                        <option value="20">
+                            20
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+
+                <label class="check-label">
+
+                    <input id="preserveSpaces"
+                           type="checkbox"
+                           checked>
+
+                    Preserve spaces
+
+                </label>
+
+
+
+                <label class="check-label">
+
+                    <input id="preserveEnds"
+                           type="checkbox">
+
+                    Keep first & last letter
+
+                </label>
+
+
+            </div>
+
+
+            <div class="button-row">
+
+                <button id="scrambleBtn"
+                        class="btn primary"
+                        type="button">
+
+                    Scramble Word
+
+                </button>
+
+
+                <button id="clearScrambleBtn"
+                        class="btn secondary"
+                        type="button">
+
+                    Clear
+
+                </button>
+
+            </div>
+
+
+            <div id="scrambleResults"
+                 class="results"
+                 aria-live="polite">
+            </div>
+
+
+        </div>
+
     </div>
-  </section>
 
-  <section class="section">
+</section>
+
+
+
+<!-- ================= UNSCRAMBLER ================= -->
+
+<section id="unscrambler"
+         class="section alt">
+
+    <div class="container">
+
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Word Tool
+                </span>
+
+                <h2>
+                    Word Unscrambler
+                </h2>
+
+                <p>
+                    Explore possible arrangements from your letters.
+                </p>
+
+            </div>
+
+
+            <label for="unscrambleInput">
+                Enter letters
+            </label>
+
+
+            <input id="unscrambleInput"
+                   class="text-input"
+                   type="text"
+                   maxlength="30"
+                   placeholder="Example: listen"
+                   autocomplete="off">
+
+
+            <div class="button-row">
+
+                <button id="unscrambleBtn"
+                        class="btn primary"
+                        type="button">
+
+                    Generate Arrangements
+
+                </button>
+
+
+                <button id="clearUnscrambleBtn"
+                        class="btn secondary"
+                        type="button">
+
+                    Clear
+
+                </button>
+
+            </div>
+
+
+            <div id="unscrambleResults"
+                 class="results"
+                 aria-live="polite">
+            </div>
+
+
+            <p class="tool-note">
+                This browser-based version generates letter arrangements.
+                Dictionary-based word matching can be added in a future version.
+            </p>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ANAGRAM ================= -->
+
+<section id="anagram"
+         class="section">
+
+    <div class="container">
+
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Word Tool
+                </span>
+
+                <h2>
+                    Anagram Generator
+                </h2>
+
+                <p>
+                    Generate fresh letter rearrangements from
+                    a word or short phrase.
+                </p>
+
+            </div>
+
+
+            <label for="anagramInput">
+                Word or phrase
+            </label>
+
+
+            <input id="anagramInput"
+                   class="text-input"
+                   type="text"
+                   maxlength="40"
+                   placeholder="Example: silent"
+                   autocomplete="off">
+
+
+            <div class="button-row">
+
+                <button id="anagramBtn"
+                        class="btn primary"
+                        type="button">
+
+                    Generate Anagrams
+
+                </button>
+
+
+                <button id="clearAnagramBtn"
+                        class="btn secondary"
+                        type="button">
+
+                    Clear
+
+                </button>
+
+            </div>
+
+
+            <div id="anagramResults"
+                 class="results"
+                 aria-live="polite">
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= RANDOM WORD ================= -->
+
+<section id="random"
+         class="section alt">
+
+    <div class="container">
+
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Word Tool
+                </span>
+
+                <h2>
+                    Random Word Generator
+                </h2>
+
+                <p>
+                    Generate random words for writing,
+                    brainstorming and games.
+                </p>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <label>
+
+                    Category
+
+                    <select id="wordCategory">
+
+                        <option value="all">
+                            All
+                        </option>
+
+                        <option value="nouns">
+                            Nouns
+                        </option>
+
+                        <option value="verbs">
+                            Verbs
+                        </option>
+
+                        <option value="adjectives">
+                            Adjectives
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+
+                <label>
+
+                    Number of words
+
+                    <select id="randomWordCount">
+
+                        <option value="1">
+                            1
+                        </option>
+
+                        <option value="5"
+                                selected>
+                            5
+                        </option>
+
+                        <option value="10">
+                            10
+                        </option>
+
+                        <option value="20">
+                            20
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+            </div>
+
+
+            <div class="button-row">
+
+                <button id="randomWordBtn"
+                        class="btn primary"
+                        type="button">
+
+                    Generate Words
+
+                </button>
+
+            </div>
+
+
+            <div id="randomWordResults"
+                 class="results"
+                 aria-live="polite">
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= WORD COUNTER ================= -->
+
+<section id="counter"
+         class="section">
+
+    <div class="container">
+
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Text Tool
+                </span>
+
+                <h2>
+                    Word & Character Counter
+                </h2>
+
+                <p>
+                    Type or paste text and see live statistics.
+                </p>
+
+            </div>
+
+
+            <label for="counterInput">
+                Your text
+            </label>
+
+
+            <textarea id="counterInput"
+                      class="text-area"
+                      rows="10"
+                      placeholder="Start typing or paste text here..."></textarea>
+
+
+            <div class="stats-grid">
+
+
+                <div class="stat-card">
+
+                    <strong id="wordCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Words
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <strong id="characterCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Characters
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <strong id="characterNoSpaceCount">
+                        0
+                    </strong>
+
+                    <span>
+                        No Spaces
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <strong id="sentenceCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Sentences
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <strong id="paragraphCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Paragraphs
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <strong id="readingTime">
+                        0 min
+                    </strong>
+
+                    <span>
+                        Reading Time
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="button-row">
+
+                <button id="clearCounterBtn"
+                        class="btn secondary"
+                        type="button">
+
+                    Clear
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= TEXT TOOLS ================= -->
+
+<section id="text-tools"
+         class="section alt">
+
+    <div class="container">
+
+        <div class="tool-card">
+
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Text Tool
+                </span>
+
+                <h2>
+                    Quick Text Tools
+                </h2>
+
+                <p>
+                    Clean, format, sort and transform text instantly.
+                </p>
+
+            </div>
+
+
+            <label for="textToolInput">
+                Your text
+            </label>
+
+
+            <textarea id="textToolInput"
+                      class="text-area"
+                      rows="7"
+                      placeholder="Enter text here..."></textarea>
+
+
+            <div class="button-row text-tool-buttons">
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="reverse">
+                    Reverse
+                </button>
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="sort">
+                    Sort Words
+                </button>
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="duplicates">
+                    Remove Duplicates
+                </button>
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="uppercase">
+                    UPPERCASE
+                </button>
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="lowercase">
+                    lowercase
+                </button>
+
+
+                <button type="button"
+                        class="btn secondary"
+                        data-text-action="titlecase">
+                    Title Case
+                </button>
+
+
+            </div>
+
+
+            <label for="textToolOutput">
+                Result
+            </label>
+
+
+            <textarea id="textToolOutput"
+                      class="text-area"
+                      rows="7"
+                      readonly></textarea>
+
+
+            <div class="button-row">
+
+
+                <button id="copyTextResult"
+                        class="btn primary"
+                        type="button">
+
+                    Copy Result
+
+                </button>
+
+
+                <button id="clearTextTools"
+                        class="btn secondary"
+                        type="button">
+
+                    Clear
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SEO CONTENT ================= -->
+
+<section class="section">
+
     <div class="container content-block">
-      <h2>What is a word scrambler?</h2>
-      <p>A word scrambler rearranges the letters in a word or phrase into a new order. It is useful for classroom activities, word games, puzzles, vocabulary practice, brainstorming and creative writing.</p>
 
-      <h2>How to use Word Scribble</h2>
-      <ol>
-        <li>Enter a word or short phrase.</li>
-        <li>Choose how many scrambled results you want.</li>
-        <li>Optionally preserve spaces or the first and last letters.</li>
-        <li>Select <strong>Scramble Word</strong>.</li>
-        <li>Copy any generated result with one click.</li>
-      </ol>
 
-      <h2>Why use Word Scribble?</h2>
-      <p>All core tools run directly in your browser. No account is required, and your input does not need to be sent to a server for the basic tools to work.</p>
+        <h2>
+            Free Online Word & Text Tools
+        </h2>
+
+
+        <p>
+            Word Scribble provides simple browser-based tools for
+            working with words, letters and text. Use the tools for
+            word games, writing, learning, brainstorming, classroom
+            activities and everyday text tasks.
+        </p>
+
+
+        <h2>
+            Popular Word Tools
+        </h2>
+
+
+        <h3>
+            Word Scrambler
+        </h3>
+
+        <p>
+            Rearrange letters from a word or phrase into randomized
+            combinations. It can be useful for puzzles, vocabulary
+            exercises and word games.
+        </p>
+
+
+        <h3>
+            Word Unscrambler
+        </h3>
+
+        <p>
+            Explore different arrangements that can be created from
+            a supplied group of letters.
+        </p>
+
+
+        <h3>
+            Anagram Generator
+        </h3>
+
+        <p>
+            Rearrange letters into alternative combinations for
+            brainstorming, puzzles and language activities.
+        </p>
+
+
+        <h3>
+            Random Word Generator
+        </h3>
+
+        <p>
+            Generate random words for creative writing,
+            brainstorming, classroom activities and games.
+        </p>
+
+
+        <h3>
+            Word & Character Counter
+        </h3>
+
+        <p>
+            Analyze text instantly and see word count, character
+            count, sentences, paragraphs and estimated reading time.
+        </p>
+
+
+        <h3>
+            Quick Text Tools
+        </h3>
+
+        <p>
+            Quickly reverse, sort, clean and change the capitalization
+            of text directly in your browser.
+        </p>
+
+
+
+        <h2>
+            Why Use Word Scribble?
+        </h2>
+
+
+        <ul>
+
+            <li>
+                Free online tools
+            </li>
+
+            <li>
+                No account required for the basic tools
+            </li>
+
+            <li>
+                Fast browser-based processing
+            </li>
+
+            <li>
+                Mobile and desktop friendly
+            </li>
+
+            <li>
+                Simple interfaces
+            </li>
+
+            <li>
+                Useful for writing, learning and word games
+            </li>
+
+        </ul>
+
+
     </div>
-  </section>
 
-  <section class="section alt">
+</section>
+
+
+
+<!-- ================= FAQ ================= -->
+
+<section class="section alt">
+
     <div class="container">
-      <div class="section-heading centered">
-        <span class="eyebrow">FAQ</span>
-        <h2>Frequently asked questions</h2>
-      </div>
-      <div class="faq">
-        <details><summary>Is Word Scribble free?</summary><p>Yes. The tools on this website are designed to be free to use.</p></details>
-        <details><summary>Can I scramble multiple words?</summary><p>Yes. You can enter a short phrase and keep spaces preserved while the letters are randomized.</p></details>
-        <details><summary>Does Word Scribble store my text?</summary><p>The core tools run locally in your browser and do not require your text to be stored on a server.</p></details>
-        <details><summary>Can I use it on mobile?</summary><p>Yes. The site is responsive and works on modern phones, tablets and desktop browsers.</p></details>
-      </div>
+
+
+        <div class="section-heading centered">
+
+            <span class="eyebrow">
+                FAQ
+            </span>
+
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+        </div>
+
+
+        <div class="faq">
+
+
+            <details>
+
+                <summary>
+                    Is Word Scribble free?
+                </summary>
+
+                <p>
+                    Yes. Word Scribble's basic word and text tools
+                    are free to use.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    Do I need an account?
+                </summary>
+
+                <p>
+                    No. You can use the basic Word Scribble tools
+                    without creating an account.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    Does Word Scribble store my text?
+                </summary>
+
+                <p>
+                    The core tools are designed to process text
+                    directly in your browser where possible.
+                    See the Privacy Policy for additional information.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    Can I use Word Scribble on mobile?
+                </summary>
+
+                <p>
+                    Yes. Word Scribble is designed to work on
+                    modern phones, tablets and desktop browsers.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    What is a word scrambler?
+                </summary>
+
+                <p>
+                    A word scrambler changes the order of letters
+                    in a word or phrase to create new letter
+                    combinations.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    What is an anagram?
+                </summary>
+
+                <p>
+                    An anagram is created by rearranging the letters
+                    of a word or phrase to produce another
+                    arrangement using the same letters.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    Can I scramble a phrase?
+                </summary>
+
+                <p>
+                    Yes. The Word Scrambler accepts short phrases
+                    and includes an option to preserve spaces.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    What can I use the Random Word Generator for?
+                </summary>
+
+                <p>
+                    Random words can be useful for creative writing,
+                    brainstorming, games, classroom exercises and
+                    vocabulary activities.
+                </p>
+
+            </details>
+
+
+        </div>
+
     </div>
-  </section>
+
+</section>
+
+
 </main>
 
+
+
+<!-- ================= FOOTER ================= -->
+
 <footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <a class="brand footer-brand" href="index.html">Word<span>Scribble</span></a>
-      <p>Simple, fast and useful word tools for everyone.</p>
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a class="brand footer-brand"
+               href="index.html">
+
+                Word<span>Scribble</span>
+
+            </a>
+
+            <p>
+                Simple, fast and useful word tools for everyone.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <a href="#scrambler">
+                Scrambler
+            </a>
+
+            <a href="#unscrambler">
+                Unscrambler
+            </a>
+
+            <a href="#anagram">
+                Anagrams
+            </a>
+
+            <a href="#random">
+                Random Words
+            </a>
+
+            <a href="#counter">
+                Word Counter
+            </a>
+
+            <a href="#text-tools">
+                Text Tools
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="privacy-policy.html">
+                Privacy Policy
+            </a>
+
+            <a href="terms.html">
+                Terms
+            </a>
+
+        </div>
+
+
     </div>
-    <div class="footer-links">
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms.html">Terms</a>
+
+
+    <div class="container copyright">
+
+        © 2026 Word Scribble. All rights reserved.
+
     </div>
-  </div>
-  <div class="container copyright">© 2026 Word Scribble. All rights reserved.</div>
+
 </footer>
 
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
 <script src="script.js"></script>
+
+
 </body>
+
 </html>
