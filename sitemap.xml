@@ -3,27 +3,46 @@
 
   <url>
     <loc>https://wordscribble.pages.dev/</loc>
-    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/anagram-generator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/random-word-generator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/unscramble-word.html</loc>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/word-counter.html</loc>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/word-scrambler.html</loc>
+  </url>
+
+  <url>
+    <loc>https://wordscribble.pages.dev/text-tools.html</loc>
   </url>
 
   <url>
     <loc>https://wordscribble.pages.dev/about.html</loc>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://wordscribble.pages.dev/contact.html</loc>
-    <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://wordscribble.pages.dev/privacy-policy.html</loc>
-    <priority>0.3</priority>
   </url>
 
   <url>
     <loc>https://wordscribble.pages.dev/terms.html</loc>
-    <priority>0.3</priority>
   </url>
 
 </urlset>
